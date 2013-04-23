@@ -8,18 +8,20 @@
 	<title>Describing Archives: A Content Standard</title>
 	
 	<!-- Required stylesheet -->
-	<link rel="stylesheet" href="core/deck.core.css"/>
+	<link rel="stylesheet" href="core/deck.core.css" media="screen, projection"/>
 	
 	<!-- Extension CSS files go here. Remove or add as needed. -->
-	<link rel="stylesheet" href="extensions/goto/deck.goto.css"/>
-	<link rel="stylesheet" href="extensions/menu/deck.menu.css"/>
-	<link rel="stylesheet" href="extensions/navigation/deck.navigation.css"/>
-	<link rel="stylesheet" href="extensions/status/deck.status.css"/>
-	<link rel="stylesheet" href="extensions/hash/deck.hash.css"/>
-	<link rel="stylesheet" href="extensions/scale/deck.scale.css"/>
+	<link rel="stylesheet" href="extensions/goto/deck.goto.css" media="screen, projection"/>
+	<link rel="stylesheet" href="extensions/menu/deck.menu.css" media="screen, projection"/>
+	<link rel="stylesheet" href="extensions/navigation/deck.navigation.css" media="screen, projection"/>
+	<link rel="stylesheet" href="extensions/status/deck.status.css" media="screen, projection"/>
+	<link rel="stylesheet" href="extensions/hash/deck.hash.css" media="screen, projection"/>
+	<link rel="stylesheet" href="extensions/scale/deck.scale.css" media="screen, projection"/>
 
 	<!-- Style theme. More available in /themes/style/ or create your own. -->
-	<link rel="stylesheet" href="themes/style/web-2.0.css"/>
+    <link rel="stylesheet" href="themes/style/style.css" media="screen, projection"/>
+	<link rel="stylesheet" href="themes/style/swiss.css" media="screen, projection"/>
+    <link rel="stylesheet" href="themes/style/print.css" media="print"/>
 	
 	<!-- Transition theme. More available in /themes/transition/ or create your own. -->
 	<link rel="stylesheet" href="themes/transition/horizontal-slide.css"/>
@@ -32,201 +34,315 @@
         <!-- Begin slides. Just make elements with a class of slide. -->
 
         <section class="slide">
-            <h3>Introduction to</h3>
+            <h2>Introduction to</h2>
             <h1>Describing Archives: A Content Standard</h1>
-            <p>A workshop presented by the Society of American Archivists</p>
         </section>
 
         <section class="slide">
             <h1>Welcome!</h1>
+            <notes>Do introductions; start with instructor.</notes>
         </section>
 
         <section class="slide">
             <h2>Learning Objectives</h2>
-            <p>Understand and articulate what DACS is (and isn’t)</p>
-            <p>Understand the basic principles underlying DACS and how they relate to archival
-                theory and practice</p>
-            <p>Understand how to use DACS to create a variety of descriptions of varying detail for
-                both archival materials as well as archival creators.</p>
-            <p>Understand how DACS impacts local accessioning, arrangement and description workflows
-                and policies</p>
+            <h3>Articulate what DACS is (and isn’t), and how its basic principles relate to archival
+                theory and practice</h3>
+            <h3>Distinguish between minimal and value-added descriptions for archival materials and
+                creators</h3>
+            <h3>Apply DACS rules to identify and formulate required elements of archival
+                description</h3>
+            <h3>Integrate DACS across the archival enterprise, in processes such as accessioning,
+                arrangement and description.</h3>
+            <notes>You’re not going to be DACS experts by the end of the day. But you should feel
+                comfortable with using DACS and have some ideas about how it might influence how you
+                do things in your repository. Most importantly: You should feel comfortable going
+                back to your own repository, analyzing your own practices, and deciding how what
+                you’ve learned in this workshop might have an impact on what you do there. </notes>
         </section>
 
         <section class="slide">
             <h2>Ground Rules</h2>
-            <p>Participate</p>
-            <p>Ask questions</p>
-            <p>Talk to and learn from your colleagues</p>
+            <h3>Participate</h3>
+            <h3>Ask questions</h3>
+            <h3>Talk to, learn from and respect your colleagues</h3>
+            <notes>Professional colleagues are one of your best resources for thinking about
+                archival description, especially implementing new standards. Get to know some
+                archivists you don’t already know while you’re here today!</notes>
         </section>
 
         <section class="slide">
             <h2>Schedule</h2>
+            <notes>We have a lot to cover, so please come back from breaks promptly!</notes>
         </section>
 
         <section class="slide">
             <h2>Other Logistics</h2>
-            <p>Bathrooms</p>
-            <p>Break/lunch options</p>
-            <p>Check information on participant list</p>
-            <p>Evaluation will happen at end of session</p>
+            <h3>Bathrooms</h3>
+            <h3>Break/lunch options</h3>
+            <h3>Confirm information on participant list is correct</h3>
+            <h3>Evaluation will happen at end of session</h3>
+            <notes>Pass around copy of SAA participant contact list for everyone to check and update
+                if needed, especially important if some participants registered after Instructor
+                Packet was sent out by SAA Office. Instructor will send to SAA Office after the
+                workshop (to insure that people who registered after the Continuing Education
+                certificates were sent to the host site get their certificates mailed to them from
+                the SAA Office) </notes>
         </section>
 
         <section class="slide">
             <h2>Caveats</h2>
-            <p class="slide">Not a workshop on archival description</p>
-            <p class="slide">Not a “how-to” for creating finding aids, catalog records, authority
-                records</p>
-            <p class="slide">Not about a right or wrong way of doing things</p>
+            <h3 class="slide">Not a workshop on archival description</h3>
+            <h3 class="slide">Not a “how-to” for creating finding aids, catalog records or authority
+                records</h3>
+            <h3 class="slide">Not about a right or wrong way of doing things</h3>
+            <notes>Other places to go for these things. SAA has an Arrangement and Description
+                workshop. There are other modules for creating specific outputs. DACS is not
+                prescriptive; above all it requires you to think and to engage. This is a workshop
+                on DACS!</notes>
         </section>
 
         <section class="slide">
             <h1>What is DACS?</h1>
+            <notes>So, what is DACS?</notes>
         </section>
 
         <section class="slide">
             <h2>DACS is...</h2>
-            <ol>
-                <li class="slide">A way to consistently implement archival control</li>
-                <li class="slide">A data content standard</li>
-                <li class="slide">A companion standard</li>
-                <li class="slide">Based on and incorporates ISAD(G)</li>
-                <li class="slide">Output neutral</li>
-                <li class="slide">Iterative</li>
-                <li class="slide">Accommodates single and multi level descriptions</li>
-            </ol>
+            <h3 class="slide">A way to consistently implement archival control</h3>
+            <h3 class="slide">A data content standard</h3>
+            <h3 class="slide">A companion standard</h3>
+            <h3 class="slide">Based on and incorporates ISAD(G)</h3>
+            <h3 class="slide">Output neutral</h3>
+            <h3 class="slide">Iterative</h3>
+            <h3 class="slide">Accommodates single and multi level descriptions</h3>
+            <notes>I'm glad you asked! DACS is all of these things. We'll go over them one by
+                one.</notes>
         </section>
 
         <section class="slide">
-            <h2>A way to consistently implement archival control</h2>
+            <h1>A way to consistently implement archival control</h1>
+            <notes>DACS is a way to consistently implement archival control.</notes>
         </section>
-
+        
         <section class="slide">
-            <h2>DACS exists to...</h2>
             <blockquote>
-                <p>...ensure the creation of consistent, appropriate, and self-explanatory
-                    descriptions of archival material</p>
+                <p>DACS exists to...ensure the creation of consistent, appropriate, and
+                    self-explanatory descriptions of archival material</p>
                 <p>
                     <cite>Introduction to Describing Archival Materials</cite>
                 </p>
             </blockquote>
+            <notes>In fact, this idea is written into DACS explicitly. But what does this mean? What
+                is archival description?</notes>
         </section>
 
         <section class="slide">
             <h2>What is Archival Description?</h2>
-            <p>An approach to creating and managing information</p>
-            <p>Describing groupings of non-homogenous, non-self-describing materials</p>
-            <p>requires abstraction, description of context of creation including creator</p>
-            <p>User-centric</p>
-            <p>Can be applied to materials regardless of format</p>
-            <p>Describes not just materials, but people and their relationship to records
-                (functions) as well</p>
+            <h3 class="slide">An approach to creating and managing information</h3>
+            <h3 class="slide">Describing groupings of non-homogenous, non-self-describing
+                materials</h3>
+            <h3 class="slide">Requires abstraction, description of context of creation including
+                creator</h3>
+            <h3 class="slide">Describes not just materials, but people and their relationship to
+                records (functions) as well</h3>
+            <h3 class="slide">User-centric</h3>
+            <h3 class="slide">Can be applied to materials regardless of format</h3>
+            <notes>What do we mean when we say "archival description?" We are fundamentally talking
+                about an approach to creating and managing information, not a particular kind of
+                output! This approach means we describe groups of unique things that are not
+                self-describing (they don't have title pages, etc). This means we have to work
+                differently than other information professionals; our work necessarily involves
+                abstraction and description of context. It also means we have to constantly think of
+                our users, which means we have to know who they are. And, even though we are usually
+                describing unique materials, archival description can be applied to materials
+                regardless of format or origin. Finally, archival description is not just about the
+                stuff, it's about describing people and their relationship to records as
+                well!</notes>
         </section>
 
         <section class="slide">
-            <h2>A data content standard</h2>
+            <h1>A data content standard</h1>
+            <notes>DACS is also a data content standard. What is a data content standard?</notes>
         </section>
 
         <section class="slide">
             <h2>Descriptive Standards</h2>
             <p>Rules and specifications that prescribe methods of producing uniform and consistent
                 results or products for use in providing access to primary source materials</p>
+            <h3 class="slide">Data structure standards</h3>
             <ul>
-                <li class="slide">
-                    <h3>Data structure standards</h3>
-                    <ul>
-                        <li class="slide">Define the elements of information contained in the
-                            components of an information system</li>
-                        <li class="slide">EAD, MARC, Dublin Core</li>
-                    </ul>
-                </li>
-                <li class="slide">
-                    <h3>Data content standards</h3>
-                </li>
-                <ul>
-                    <li class="slide">Provide the rules to apply when recording information within
-                        each element defined in the data structure standards</li>
-                    <li class="slide">AACR2, RDA, RAD, DACS</li>
-                </ul>
-                <li class="slide">
-                    <h3>Data value standards</h3>
-                </li>
-                <ul>
-                    <li class="slide">Provide lists or tables of terms, names, or other specific
-                        entities that are acceptable for entry in a particular data element</li>
-                    <li class="slide">LCNAF, LCSH, Getty vocabularies</li>
-                </ul>
+                <li class="slide">Define the elements of information contained in the components of
+                    an information system</li>
             </ul>
+            <h3 class="slide">Data content standards</h3>
+            <ul>
+                <li class="slide">Provide the rules to apply when recording information within each
+                    element defined in the data structure standards</li>
+            </ul>
+                <h3 class="slide">Data value standards</h3>
+            <ul>
+                <li class="slide">Provide lists or tables of terms, names, or other specific
+                    entities that are acceptable for entry in a particular data element</li>
+            </ul>
+            <notes>Let's take a moment to talk about descriptive standards. In our context, that
+                means a set of rules we use to produce a consistent set of results. There are
+                basically three kinds of descriptive standards. Data structure standards define how
+                data is structured; they tell you what fields exist and how they relate to each
+                other. Data content standards tell you what can go in the fields that are defined by
+                data structure standards. And data value standards, often considered a subset of
+                data content standards, provide controlled lists of terms.</notes>
+        </section>
+        
+        <section class="slide">
+            <h1>Exercise</h1>
+            <notes>Let's do a quick exercise together; pin the standard to the category! EAD, MARC,
+                Dublin Core, LCNAF, LCSH, Getty vocabularies, AACR2, RDA, RAD, DACS</notes>
         </section>
 
         <section class="slide">
-            <h2>A companion standard</h2>
+            <h1>A companion standard</h1>
+            <notes>DACS is a companion standard. What the heck is a companion standard? This means
+                that DACS plays well with other standards like the ones we've just discussed. It is
+                flexible enough to be used in conjunction with those standards. You might use rules
+                from a more detailed, material-specific standard in lieu of DACS rules for specific
+                elements if that form of material is particularly important to your repository. For example, rules
+                for the Extent element from The IASA Cataloguing Rules: A Manual for the Description
+                of Sound Recordings and Related Audiovisual Media provide much more detail for
+                item-level descriptions of sound records than DACS does. If that matters in your
+                repository, you can use them instead of the DACS Extent Element (2.5) rules. Or you
+                might incorporate elements from other data content standards (e.g., not defined by
+                ISAD(G), on which the DACS element set is based) in addition to DACS rules. For example, CCO
+                provides elements (and rules for their content) for Style and for Culture that are
+                beyond the scope of DACS and might be useful at the series- or item-levels to
+                archivists describing cultural object components of the materials of an individual
+                or organization</notes>
         </section>
 
         <section class="slide">
-            <h2>Decide, Document, Apply Consistently</h2>
-            <notes>Look to best practice guidelines (you’re not a special snowflake, someone else
-                has probably encountered the same issue as you already!). Good opportunity to
-                mention other modules.</notes>
+            <h1><section class="slide">Decide</section>
+            <section class="slide">Document</section>
+            <section class="slide">Apply Consistently</section></h1>
+            <notes>So, this gives you a lot of flexibility, which is awesome. But it also gives you
+                a lot of flexiblity, which is problematic. The point of standards is consistency, so
+                you need to ensure you're still achieving that goal. Look to best practice
+                guidelines (you’re not a special snowflake, someone else has probably encountered
+                the same issue as you already!) developed by SAA. Check out some of the other SAA
+                education offerings for more specific training.</notes>
         </section>
 
         <section class="slide">
-            <h2>Based on and incorporates ISAD(G)</h2>
-            <notes>In addition to companion standard, has a closer relationship to an existing
+            <h1>Based on and incorporates ISAD(G)</h1>
+            <notes>In addition to being a companion standard, has a closer relationship to an existing
                 international standard for archival description. ISAD(G) is intended to be used with
-                national standards. </notes>
+                national standards.</notes>
         </section>
 
         <section class="slide">
-            <h2>Comparison chart with ISAD(G) and DACS elements</h2>
+            <h2>ISAD(G) and DACS</h2>
+            <h3>Only five elements are not totally parallel</h3>
+            <ul>
+                <li>Name and Location of Repository</li>
+                <li>Level of Description</li>
+                <li>Physical/Technical Access</li>
+                <li>Archival History/Custodial History</li>
+                <li>Archivist’s Note/Rules or Conventions/Date(s) of Description/Description
+                    Control</li>
+            </ul>
+            <notes>Name/Location of repository: ISAD(G) handles in reference code, CUSTARD
+                group felt need for this in human-readable form.
+                Level of description: Would look odd in finding aids if a separate element, and
+                some data structures (EAD, for ex.) handle it. CUSTARD group decided to
+                incorporate it as part of the Chapter 1 multi-level minimums
+                Physical/Technical access: both there, just separately, in DACS.
+                Archival history: CUSTARD group thought the name was weird – so renamed
+                it but its content mirrors ISAD(G).
+                3 elements to capture what archivists do in creating descriptions?: really, do
+                we have any evidence that this is all that important to end users? One element
+                seemed like enough for this, and the DACS rules capture the spirit of all 3
+                ISAD(G) elements.
+            </notes>
         </section>
 
         <section class="slide">
             <h2>Why this matters</h2>
-            <p>Archival description is increasingly viewed and shared globally. Shared standards
-                help archivists make description more widely available, and allow researchers to
-                understand more easily.</p>
+            <h3>Archival description is increasingly viewed and shared globally. </h3>
+            <h3>Shared standards help archivists make description more widely available, and allow
+                researchers to understand more easily.</h3>
+            <notes>We need to keep in step with international standards because we're not on our
+                own. That's why DACS is explicitly tied to ISAD(G).</notes>
         </section>
 
         <section class="slide">
-            <h2>Output neutral</h2>
-            <p>Because it’s designed to be used with other standards, DACS does not prescribe one
-                specific output.</p>
-            <p>DACS can be used to create finding aids, catalog records, digital object metadata
-                records, etc.</p>
-            <p>Data reuse - create description once, output in many ways</p>
-            <p>BUT, it’s still all archival description, ie it conforms to principles of archival
-                description.</p>
+            <h1>Output neutral</h1>
+            <notes>DACS is output neutral. This means...</notes>
+        </section>
+        
+        <section class="slide">
+            <h2>Output neutrality</h2>
+            <h3 class="slide">Because it is designed to be used with other standards, DACS does not prescribe one
+                specific kind of output.</h3>
+            <h3 class="slide">DACS can be used to create finding aids, catalog records, digital object metadata
+                records, etc.</h3>
+            <h3 class="slide">Allows for data reuse: create description once, output in many ways.</h3>
+            <h3 class="slide">BUT, it's still all archival description!</h3>
+            <notes>You can use DACS rules to create lots of different descriptive outputs. Not just
+                finding aids. However, it's still all archival description because, as we just
+                talked about, archival description is a way of managing information, not a specific
+                kind of output about a specific kind of material.</notes>
         </section>
 
         <section class="slide">
-            <h2>Iterative</h2>
-            <p>Can and should be used in almost every part of the archival enterprise, including
-                accessioning, arrangement, description, reference.</p>
-            <p>Archival processes are fundamentally iterative and involve accretion of knowledge,
+            <h1>Iterative</h1>
+            <notes>DACS is iterative. Which means...</notes>
+        </section>
+        
+        <section class="slide">
+            <h2>Iteration</h2>
+            <h3 class="slide">DACS can and should be used in almost every part of the archival enterprise, including
+                accessioning, arrangement, description, reference.</h3>
+            <h3 class="slide">Archival processes are fundamentally iterative and involve accretion of knowledge,
                 description, use. DACS accommodates this characteristic of archival functions and
-                materials.</p>
+                materials.</h3>
+            <notes>Both that it can be used in almost every part of the archival enterprise, but
+                also that it can be used whether you're doing extremely detailed item-level
+                description, or just minimal collection-level description.</notes>
         </section>
 
         <section class="slide">
-            <h2>Accommodates single and multi level descriptions</h2>
-            <p>Which means you can describe different levels of material (ie collection, series,
-                item) at differing levels of detail. So, you can describe anything from a single
-                item to an entire collection, and you can describe them in as much or as little
-                detail as you want (once you’ve achieved a certain baseline).</p>
+            <h1>Accommodates single and multi level descriptions</h1>
+            <notes>DACS also accomodates single and multi-level descriptions. This is a bit tricky,
+                but basically it means DACS allows you to describe collections at varying levels of
+                granularity. Which means you can describe different levels of material (ie
+                collection, series, item) at differing levels of detail. So, you can describe
+                anything from a single item to an entire collection, and you can describe them in as
+                much or as little detail as you want (once you’ve achieved a certain baseline). Note
+                that these differing level of records can be created in any output desired.</notes>
         </section>
-
+        
         <section class="slide">
-            <h2>Single level minimums</h2>
-            <p></p>
+            <h2>Single Level Minimum elements</h2>
+            <h3>2.1 Reference Code</h3>
+            <h3>2.2 Name and Location of Repository</h3>
+            <h3>2.3 Title</h3>
+            <h3>2.4 Date</h3>
+            <h3>2.5 Extent</h3>
+            <h3>2.6 Name of Creator(s)</h3>
+            <h3>3.1 Scope and Content</h3>
+            <h3>4.1 Conditions Governing Access</h3>
+            <h3>4.5 Languages and Scripts of the Material</h3>
         </section>
 
         <section class="slide">
             <h2>Multi-level minimums</h2>
+            <h3 class="slide">At the highest level, all of the elements for single level minimum</h3>
+            <h3 class="slide">If any of the information in these elements changes at a lower level, include element at that level</h3>
+            <h3 class="slide">Identification of the whole-part relationship to next subsequent level</h3>
             <notes>Pause for questions before moving on to next section.</notes>
         </section>
 
         <section class="slide">
             <h1>Navigating DACS</h1>
+            <notes>DACS can be a little confusing. Here are some tips to help you navigate the standard.</notes>
         </section>
 
         <section class="slide">
@@ -234,7 +350,7 @@
             <section class="slide">
                 <h3>Part I - Describing Archival Materials</h3>
                 <ul>
-                    <li>Divided into 8 sections</li>
+                    <li>Divided into eight sections</li>
                 </ul>
             </section>
             <section class="slide">
@@ -246,167 +362,240 @@
             <section class="slide">
                 <h3>Appendices</h3>
                 <ul>
-                    <li>2004 Preface</li>
+                    <li>Preface from 2004 edition</li>
                     <li>Companion Standards</li>
                     <li>Crosswalks</li>
                 </ul>
             </section>
-            <notes>Divided into Part I, Part II and Appendices</notes>
+            <notes>DACS is divided into three sections. Part I, Part II and Appendices</notes>
         </section>
 
         <section class="slide">
             <h2>Numbering</h2>
-            <p>Sections are numbered consecutively (14 in all) and rules within each section are
-                also numbered</p>
-            <p>Makes for easy citation/crosswalking</p>
+            <h3 class="slide">Sections are numbered consecutively</h3>
+            <h3 class="slide">Rules within each section are also numbered consecutively</h3>
+            <h3 class="slide">Makes for easy citation/crosswalking</h3>
+            <notes>Everything is numbered, which makes citing a particular rule very easy, and also
+                makes you sound like you really know what you're talking about if you drop one of
+                the numbers over a cocktail with other archivists.</notes>
         </section>
 
         <section class="slide">
-            <h2>Common subsections and phrases</h2>
-            <section class="slide">
-                <h3>Requiredness</h3>
-                <ul>
-                    <li>“Explicitly state” or “record”: core data content component</li>
-                    <li>“If desirable”: an instruction that may or may not be used; also indicated
-                        by “optionally”</li>
-                    <li>“Alternatively” indicates a parallel approach to providing data content</li>
-                </ul>
-            </section>
+            <h2>Requiredness</h2>
+            <h3 class="slide"><em>“Explicitly state”</em> or <em>“record”</em>: core data content
+                component</h3>
+            <h3 class="slide"><em>“If desirable”</em> or <em>“optionally”</em>: rule that
+                may or may not be used</h3>
+            <h3 class="slide"><em>“Alternatively”</em>: indicates a parallel approach</h3>
+            <notes>DACS also uses some standard language when talking about requiredness.</notes>
+        </section>
+        
+        <section class="slide">
+            <h2>Common sections</h2>
             <section class="slide">
                 <h3>General Rules</h3>
                 <ul>
-                    <li>Many elements gather rules together under a “general rules” heading; these
-                        are the core rules governing the element.</li>
+                    <li>Core rules governing an element</li>
                 </ul>
             </section>
             <section class="slide">
                 <h3>Exclusions</h3>
                 <ul>
-                    <li>Tell you what information *shouldn’t* go in a particular element</li>
-                    <li>Are important because they clarify points of potential confusion.</li>
+                    <li>Tell you what information <em>shouldn’t</em> go in a particular element</li>
+                    <li>Clarify points of potential confusion</li>
                 </ul>
             </section>
             <section class="slide">
                 <h3>Commentary</h3>
                 <ul>
-                    <li>Not rules (and are not numbered as such), but can often help clarify
-                        terminology or explain the logic behind a rules.</li>
+                    <li>Not rules, but can help clarify
+                        terminology or explain the logic behind a rule</li>
                 </ul>
             </section>
+            <notes>There are also some commmon sections that you'll find in many elements. Knowing
+                what kinds of things you might expect to find in each can help you find a particular
+                piece of information more easily.</notes>
         </section>
 
         <section class="slide">
             <h1>Principles of DACS</h1>
-            <p>On the nature of archival holdings</p>
-            <p>On the relationship between arrangment and description</p>
-            <p>On the nature of archival description</p>
-            <p>On creators of archival material</p>
+        </section>
+        
+        <section class="slide">
+            <h2>Principles of DACS</h2>
+            <h3 class="slide">On the nature of archival holdings</h3>
+            <h3 class="slide">On the relationship between arrangement and description</h3>
+            <h3 class="slide">On the nature of archival description</h3>
+            <h3 class="slide">On creators of archival material</h3>
+            <notes>You should have looked at these already, but note that these principles are
+                divided up into four conceptual groupings. These principles are important, and we're
+                going to spend a bit of time going over them. You might think that a lot of these
+                are common-sense, and they are, but that doesn't make them any less
+                important.</notes>
         </section>
 
         <section class="slide">
             <h2>On the nature of archival holdings</h2>
             <h3>Principles 1 and 2</h3>
-            <p>Archival materials have unique characteristics</p>
+            <p class="slide">Archival materials have unique characteristics</p>
             <ul>
-                <li>Aggregations of material</li>
-                <li>Created organically through course of business operations or person’s life</li>
-                <li>Intentionally accumulated through interest in some common characteristic such as
+                <li class="slide">Aggregations of material</li>
+                <li class="slide">Created organically through course of business operations or person’s life</li>
+                <li class="slide">Intentionally accumulated through interest in some common characteristic such as
                     topic or form of material</li>
             </ul>
-            <p>How these materials were created, maintained and used is important to pass on to
+            <p class="slide">How these materials were created, maintained and used is important to pass on to
                 future users of the records (respect des fonds = provenance + original order)</p>
+            <notes>These tell us what we already know; that archival materials are different than
+                other kinds of material, and that it's important to pass information about those
+                characteristics on to our researchers.</notes>
         </section>
 
         <section class="slide">
             <h2>On the relationship between arrangement and description</h2>
             <h3>Principles 3 and 4</h3>
-            <p>Arrangement: identifying logical groupings as used and maintained by the creator of
-                the aggregation, or constructing a useful organization if no original one is
-                extant.</p>
-            <p>Description: translating that arrangement and other important details about the
-                aggregation into an access/use tool useful to both collection managers (archivists)
-                and end users</p>
+            <p class="slide">
+                <strong>Arrangement</strong>: identifying logical groupings as used and maintained
+                by the creator of the aggregation, or constructing a useful organization if no
+                original one is extant.</p>
+            <p class="slide"><strong>Description</strong>: translating that arrangement and other
+                important details about the aggregation into an access/use tool useful to both
+                archivists and end users</p>
+            <notes>Tells us that arrangement and description are related; we also knew this already.</notes>
         </section>
 
         <section class="slide">
             <h2>On the nature of archival description</h2>
             <h3>Principles 5, 6 and 7</h3>
-            <p>Principles of archival description apply equally to all records regardless of how and
+            <p class="slide">Principles of archival description apply equally to all records regardless of how and
                 who created them, and regardless of form or medium.</p>
-            <p>Archival descriptions can be presented at varying levels of detail in a variety of
+            <p class="slide">Archival descriptions can be presented at varying levels of detail in a variety of
                 outputs.</p>
-            <p>Levels of description correspond to levels of arrangement; relationships between
+            <p class="slide">Levels of description correspond to levels of arrangement; relationships between
                 levels must be clearly identified; information provided at each level of description
                 should be appropriate for that level.</p>
+            <notes>We've talked about a lot of this already when talking about what DACS is. These
+                principles are talking about single and multilevel description as well as output
+                neutrality.</notes>
         </section>
 
         <section class="slide">
             <h2>On creators of archival material</h2>
             <h3>Principle 8</h3>
-            <p>Archival description is about describing more than just materials. Describing
+            <p class="slide">Archival description is about describing more than just materials. Describing
                 creators and their relationship to the materials is crucial to understanding those
                 materials.</p>
+            <notes>We know this too, but it's important to say; this is basically the reason that Part II exists. Pause for questions.</notes>
         </section>
 
         <section class="slide">
             <h1>Development of DACS</h1>
+            <notes>I think it's important for us to know where DACS came from; it helps explain some
+                of the decisions that were made. And, as archivists, we should love context,
+                right?</notes>
         </section>
 
         <section class="slide">
             <h2>How did we get here?</h2>
-            <section class="slide">
-                <h3>AACR2 (1967)</h3>
-                <ul>
-                    <li>Rules for general and media-specific cataloging</li>
-                    <li>Chapter 4 addressed specifically to cataloging manuscripts</li>
-                </ul>
-            </section>
-            <section class="slide">
-                <h3>APPM (1983)</h3>
-                <ul>
-                    <li>Adaptation of AACR2 Chapter 4, for more than just manuscripts</li>
-                    <li>For cataloging only; does not address finding aids or other methods of
-                        description</li>
-                    <li>Specifically addresses modern manuscripts</li>
-                    <li>Applicable to all media, though guidance is minimal for non-text</li>
-                </ul>
-            </section>
-            <section class="slide">
-                <h3>ISAD(G) (1994)</h3>
-                <ul>
-                    <li>International standard for description of archival materials</li>
-                </ul>
-            </section>
-            <section class="slide">
-                <h3>ISAAR(CPF) (1996)</h3>
-                <ul>
-                    <li>International standard for creating authority records for people,
-                        organizations and families</li>
-                </ul>
-            </section>
-            <section class="slide">
-                <h3>RAD (1990)</h3>
-                <ul>
-                    <li>Canadian rules for archival description</li>
-                </ul>
-            </section>
-            <section class="slide">
-                <h3>CUSTARD (2001-2003)</h3>
-                <ul>
-                    <li>Attempt to create common standard for US/Canadian archival description</li>
-                    <li>Revealed significant divergences in approach/practice</li>
-                </ul>
-            </section>
-            <section class="slide">
-                <h3>DACS (2004)</h3>
-                <ul>
-                    <li>Came out of CUSTARD process</li>
-                </ul>
-            </section>
+            <h3 class="slide">Anglo-American Cataloguing Rules (AACR2): 1967</h3>
+            <h3 class="slide">Archives, Personal Papers and Manuscripts (APPM): 1983</h3>
+            <h3 class="slide">General International Standard Archival Description (ISAD(G)): 1994</h3>
+            <h3 class="slide">International Standard Archival Authority Record For Corporate Bodies, Persons and Families (ISAAR(CPF)): 1996</h3>
+            <h3 class="slide">Rules for Archival Description (RAD): 1990</h3>
+            <h3 class="slide">Canadian-United States Task Force on Archival Description (CUSTARD): 2001-2003</h3>
+            <h3 class="slide">Describing Archives: A Content Standard (DACS): 2004</h3>
+            <notes> AACR2 (1967) Rules for general and media-specific cataloging, Chapter 4
+                addressed specifically to cataloging manuscripts. APPM (1983) Adaptation of AACR2
+                Chapter 4, for more than just manuscripts, For cataloging only; does not address
+                finding aids or other methods of description, Specifically addresses modern
+                manuscripts, Applicable to all media, though guidance is minimal for non-text.
+                ISAD(G) (1994) International standard for description of archival materials.
+                ISAAR(CPF) (1996) International standard for creating authority records for people,
+                organizations and families. RAD (1990) Canadian rules for archival description.
+                CUSTARD (2001-2003) Attempt to reconcile RAD, APPM and ISAD(G) to create common
+                standard for US/Canadian archival description. Revealed significant divergences in
+                approach/practice. DACS (2004) Came out of CUSTARD process</notes>
         </section>
 
         <section class="slide">
             <h2>What's new?</h2>
+            <table>
+                <tr>
+                    <td><strong>DACS 2013</strong></td>
+                    <td><strong>DACS 2004</strong></td>
+                </tr>
+                <tr>
+                    <td>Minimum, Optimum, Added Value indicated with each element</td>
+                    <td>Minimum, Optimum, Added Value indicated in Chapter 1</td>
+                </tr>
+                <tr>
+                    <td>Encoding examples not embedded in text</td>
+                    <td>Encoding examples embedded in text</td>
+                </tr>
+                <tr>
+                    <td>“Devised” used to indicate titles created by an archivist</td>
+                    <td>“Supplied” used to indicate titles created by an archivist</td>
+                </tr>
+                <tr>
+                    <td>Acronyms should be spelled out at least once</td>
+                    <td>No guidance on acronyms</td>
+                </tr>
+                <tr>
+                    <td>Abbreviations discouraged</td>
+                    <td>No guidance on abbreviations</td>
+                </tr>
+                <tr>
+                    <td>Square brackets not prescribed</td>
+                    <td>No guidance on square brackets</td>
+                </tr>
+                <tr>
+                    <td>“Papers”, “records”, “collection” not prescribed for titles</td>
+                    <td>“Papers”, “records”, “collection” prescribed for titles</td>
+                </tr>
+                <tr>
+                    <td>Part II covers Archival Authority Records</td>
+                    <td>Part II covers Describing Creators</td>
+                </tr>
+                <tr>
+                    <td>Chapter 2.6 discusses Identifying Creators</td>
+                    <td>Chapter 9 discusses Identifying Creators</td>
+                </tr>
+                <tr>
+                    <td>Chapter 2.7 discusses Administrative/Biographical History</td>
+                    <td>Chapter 10 discusses Administrative/Biographical History</td>
+                </tr>
+                <tr>
+                    <td>Part III eliminated</td>
+                    <td>Part III discusses Forms of Names</td>
+                </tr>
+                <tr>
+                    <td>Preface to 2004 edition included as Appendix A</td>
+                    <td>Preface to 2004 edition</td>
+                </tr>
+                <tr>
+                    <td>Relies on the SAA Glossary at http://www2.archivists.org/glossary</td>
+                    <td>Glossary included as Appendix A</td>
+                </tr>
+                <tr>
+                    <td>Number of crosswalks in Appendix C have been reduced</td>
+                    <td>Crosswalks in Appendix C</td>
+                </tr>
+                <tr>
+                    <td>Appendix D removed in favor of expanded examples on the companion
+                        website</td>
+                    <td>Appendix D included full encoding examples</td>
+                </tr>
+                <tr>
+                    <td>Information about maintenance/reconstitution of original order, arrangement
+                        by the archivist, or previous arrangements or reorganization(s) by the
+                        creator if known and important to the understanding of the materials should
+                        be recorded in Processing Note</td>
+                    <td>System of Arrangement element includes information about
+                        maintenance/reconstitution of original order, arrangement by the archivist,
+                        or previous arrangements or reorganization(s) by the creator if known and
+                        important to the understanding of the materials</td>
+                </tr>
+            </table>
             <notes>chart with differences between DACS 2004 and DACS 2013</notes>
         </section>
 
@@ -416,8 +605,8 @@
         </section>
 
         <section class="slide">
-            <h2>What are we describing when we describe archival materials?</h2>
-            <ul>
+            <h2>What are we describing?</h2>
+            <ul class="slide">
                 <li>Form/genre</li>
                 <li>Aboutness</li>
                 <li>Names</li>
@@ -431,7 +620,7 @@
                 <li>Other materials researchers might want to look at</li>
                 <li>Archival intervention, including acquisition, appraisal and processing
                     decisions</li>
-                <li>Creators (next section)</li>
+                <li>Creators</li>
             </ul>
             <notes>Good opportunity for participation; also a chance to review how much people have
                 absorbed from the morning.</notes>
@@ -439,149 +628,178 @@
 
         <section class="slide">
             <h2>In other words...</h2>
-            <p>complete list of all DACS elements, showing groupings</p>
+            <h3>All 36 of the DACS elements!</h3>
+            <!--<h3>1. Levels of Description</h3>
+            <h3>2. Identity Elements</h3>
+            <p>2.1 Reference Code</p>
+            <p>2.2 Name and Location of Repository</p>
+            <p>2.3 Title</p>
+            <p>2.4 Date</p>
+            <p>2.5 Extent</p>
+            <p>2.6 Name of Creator(s)</p>
+            <p>2.7 Administrative/Biographical History</p>
+            <h3>3. Content and Structure Elements</h3>
+            <p>3.1 Scope and Content</p>
+            <p>3.2 System of Arrangement</p>
+            <h3>4. Conditions of Access and Use Elements</h3>
+            <p>4.1 Conditions Governing Access</p>
+            <p>4.2 Physical Access</p>
+            <p>4.3 Technical Access</p>
+            <p>4.4 Conditions Governing Reproduction and Use</p>
+            <p>4.5 Languages and Scripts of the Material</p>
+            <p>4.6 Finding Aids</p>
+            <h3>5. Acquisition and Appraisal Elements</h3>
+            <p>5.1 Custodial History</p>
+            <p>5.2 Immediate Source of Acquisition</p>
+            <p>5.3 Appraisal, Destruction, and Scheduling Information</p>
+            <p>5.4 Accruals</p>
+            <h3>6. Related Materials Elements</h3>
+            <p>6.1 Existence and Location of Originals</p>
+            <p>6.2 Existence and Location of Copies</p>
+            <p>6.3 Related Archival Materials</p>
+            <p>6.4 Publication Note</p>
+            <h3>7. Note Elements</h3>
+            <h3>8. Description Control Elements</h3>
+            <h3>9. Archival Authority Records</h3>
+            <h3>10. Form of the Name</h3>
+<h3>11. Description of the Person, Family, or Corporate Body</h3>
+<h3>12. Related Persons, Families, and Corporate Bodies</h3>
+<h3>13. Authority Record Management</h3>
+<h3>14. Related Archival Materials and Other Resources</h3>-->
+            <notes>We’ll be talking a lot about “elements” - which is just a way of talking about pieces
+                of information in a way that doesn’t privilege a certain kind of output or
+                encoding.</notes>
         </section>
 
         <section class="slide">
             <h2>Introduction to Describing Archival Materials</h2>
-            <p>Refer again to “consistent, appropriate, and self-explanatory descriptions of
-                archival material”</p>
-            <p>Note up-front reference to professional judgement. This does not mean anything goes.
+            <h3 class="slide">“Consistent, appropriate, and self-explanatory descriptions of
+                archival material”</h3>
+            <h3 class="slide">Start by describing generally, move to the specific</h3>
+            <notes>Up-front reference to professional judgement. This does not mean anything goes.
                 It means you *can* make certain decisions, but those decisions must be documented
-                and then applied consistently.</p>
-            <p>We’ll be talking a lot about “elements” - which is just a way of talking about pieces
-                of information in a way that doesn’t privilege a certain kind of output or
-                encoding.</p>
-            <p>We describe starting at the general and moving to the specific. We start with
+                and then applied consistently. We describe starting at the general and moving to the specific. We start with
                 information that applies to *everything* in the archival unit being described, and
                 then provide more detailed information specific to certain pieces of that unit as
-                necessary.</p>
+                necessary.</notes>
         </section>
 
         <section class="slide">
-            <h1>Identity elements (Section 2)</h1>
+            <h1>Identity Elements (Section 2)</h1>
         </section>
-
+        
         <section class="slide">
             <h2>2.1 Reference Code</h2>
-            <p>Uniquely identifies the archival unit being described, whether it’s a collection or
-                an item</p>
-            <p>May consist of three subelements</p>
-            <ul>
+            <h3 class="slide">Uniquely identifies the archival unit being described, whether it’s a collection or
+                an item</h3>
+            <h3 class="slide">May consist of three subelements</h3>
+            <ul class="slide">
                 <li>a local identifier</li>
                 <li>a code for the repository</li>
                 <li>and a code for the country</li>
             </ul>
-            <p>Codes for country and repository should come from data value standards</p>
-            <p>Repositories should develop system for identifying units locally</p>
+            <h3 class="slide">Codes for country and repository should come from data value standards</h3>
+            <h3 class="slide">Repositories should develop system for identifying units locally</h3>
         </section>
 
         <section class="slide">
             <h2>2.2 Name and Location of Repository</h2>
-            <p>Pretty self-explanatory, but also important: fundamental to in-person access!</p>
-            <p>Good example of the DACS approach to “requiredness” in the rules</p>
-            <notes>Rule 2.2.2. “Explicitly state …”: core data content component Rule 2.2.3. “If
-                desirable …”: an instruction that may or may not be used; frequently indicated by
-                “Optionally …” DACS also uses “Alternatively …” to indicate a parallel approach to
-                providing data content </notes>
+            <h3 class="slide">Pretty self-explanatory, but also important: fundamental to in-person access!</h3>
+            <notes>Good example of the DACS approach to “requiredness” in the rules</notes>
         </section>
 
         <section class="slide">
             <h2>2.3 Title</h2>
-            <p>A word (infrequently) or a phrase (more likely) by which the archival unit can be
-                identified.</p>
-            <p>Sometimes material will have formal titles (like a book or an essay). </p>
-            <p>Most titles will have to be devised by archivists</p>
+            <h3 class="slide">A word (infrequently) or a phrase (more likely) by which the archival unit can be
+                identified.</h3>
+            <h3 class="slide">Sometimes material will have formal titles (like a book or an essay). </h3>
+            <h3 class="slide">Most titles will have to be devised by archivists</h3>
         </section>
 
         <section class="slide">
             <h2>Titles should...</h2>
-            <ul>
-                <li class="slide">Be brief: use other elements for lengthy text</li>
-                <li class="slide">Not use acronyms, abbreviations or symbols</li>
-                <li class="slide">Have a name segment</li>
+                <h3 class="slide">Be brief: use other elements for lengthy text</h3>
+                <h3 class="slide">Not use acronyms, abbreviations or symbols</h3>
+                <h3 class="slide">Have a name segment</h3>
                 <ul class="slide">
                     <li>person, corporate body or family primarily responsible for creating or
                         assembling the materials</li>
                     <li>rules that cover multiple creators, name changes, etc</li>
                 </ul>
-                <li class="slide">Have a segment describing the nature of the archival unit</li>
+                <h3 class="slide">Have a segment describing the nature of the archival unit</h3>
                 <ul class="slide">
                     <li>Generally, papers, records and collections</li>
                     <li>However, other names may be used</li>
                     <li>As always, document what you decide to do, and then do it consistently</li>
                 </ul>
-                <li class="slide">Have a segment describing the topics covered in the archival
-                    unit.</li>
+                <h3 class="slide">Have a segment describing the topics covered in the archival
+                    unit.</h3>
                 <ul class="slide">
                     <li>Optional</li>
                     <li>May be useful when name and form segments don’t give users enough
                         information, or are misleading on their own</li>
                 </ul>
-            </ul>
         </section>
 
         <section class="slide">
             <h2>2.4 Date</h2>
-            <p>There are lots of different kinds of dates.</p>
-            <p>There is no default kind of date to record (2.4.3), but key is to clearly label what
-                kind of date it is (2.4.4)</p>
-            <p>Rules for date ranges, predominant or bulk dates</p>
-            <p>Don’t use abbreviations such as ca., n.d.</p>
+            <h3 class="slide">There are lots of different kinds of dates</h3>
+            <h3 class="slide">Clearly label what kind it is</h3>
+            <h3 class="slide">Rules for date ranges, predominant or bulk dates</h3>
+            <h3 class="slide">Don’t use abbreviations such as ca., n.d.</h3>
+            <notes>There is no default kind of date to record (2.4.3), but we most often record
+                dates of creation.</notes>
         </section>
 
         <section class="slide">
             <h2>2.5 Extent</h2>
-            <p>Can be described either in terms of physical extent (number of boxes, linear feet) or
-                material types.</p>
-            <p>In each case, record the numerical quantity associated with the extent or material
-                type</p>
-            <p>Lots of rules for different ways to do multiple, approximate, parallel
-                statements.</p>
-            <p class="new">Rules for electronic records.</p>
-            <p>This is an element that you really need to establish local practice for. Can be
-                critical for repository management and reporting.</p>
+            <h3 class="slide">Can be described either in terms of physical extent (number of boxes, linear feet) or
+                material types.</h3>
+            <h3 class="slide">In each case, record the numerical quantity associated with the extent or material
+                type</h3>
+            <h3 class="slide">Lots of rules for different ways to do multiple, approximate, parallel
+                statements.</h3>
+            <h3 class="slide new">Rules for electronic records.</h3>
+            <h3 class="slide">This is an element that you really need to establish local practice for. Can be
+                critical for repository management and reporting.</h3>
         </section>
 
         <section class="slide">
             <h2>2.6 Name of Creator(s)</h2>
-            <p>Identifies the name of the person, corporate body or family associated with creation,
-                assembly, accumulation, maintenance of the archival unit</p>
-            <p>Should be recorded in a standardized format, from a data value standard like
-                LCNAF</p>
-            <p>Related to name segment of title</p>
-            <p>Rules are mostly for how to identify and choose a creator; DACS points you other
-                places for the form of name</p>
+            <h3 class="slide">Identifies the name of the person, corporate body or family associated with creation,
+                assembly, accumulation, maintenance of the archival unit</h3>
+            <h3 class="slide">Should be recorded in a standardized format, from a data value standard like
+                LCNAF</h3>
+            <h3 class="slide">Related to name segment of title</h3>
+            <h3 class="slide">Rules are mostly for how to identify and choose a creator; DACS points you other
+                places for the form of name</h3>
         </section>
 
         <section class="slide">
             <h2>2.7 Administrative/Biographical History</h2>
-            <p>Description of creator (identified and recorded in the previous element) embedded
-                within description of materials</p>
-            <p>Although this is an element that usually is a narrative note, there are rules for
-                which subelements to include as part of that narrative for various kinds of
-                creators.</p>
-            <p>Can be recorded at various levels, not just highest level.</p>
+            <h3 class="slide">Description of creator (identified and recorded in the previous element) embedded
+                within description of materials</h3>
+            <h3 class="slide">Although this is an element that usually is a narrative note, there are rules for
+                which subelements to include</h3>
+            <h3 class="slide">Can be recorded at various levels, not just highest level</h3>
         </section>
 
         <section class="slide">
-            <h1>Content and Structure elements (Section 3)</h1>
+            <h1>Content and Structure Elements (Section 3)</h1>
         </section>
 
         <section class="slide">
             <h2>3.1 Scope and Content</h2>
-            <p>Provides information about the nature of the materials and activities reflected in
-                the unit being described</p>
-            <p>To enable users to judge relevance</p>
-            <p>The scope and content element may include information about any or all of the
-                following:</p>
-            <ul>
+            <h3 class="slide">Provides information about the nature of the materials and activities
+                reflected in the unit being described</h3>
+            <h3 class="slide">Enable users to judge relevance</h3>
+            <h3 class="slide">May include information about any or all of the following:</h3>
+            <ul class="slide">
                 <li>the function(s), activity(ies), transaction(s), and process(es) that generated
-                    the materials being described</li>
-                <li>the documentary form(s) or intellectual characteristics of the records being
-                    described (e.g., minutes, diaries, reports, watercolors, documentaries)</li>
-                <li>the content dates, that is, the time period(s) covered by the intellectual
-                    content or subject of the unit being described</li>
+                    the materials</li>
+                <li>the documentary form(s) or intellectual characteristics of the records</li>
+                <li>the time period(s) covered by the intellectual content or subject of the
+                    materials</li>
                 <li>geographic area(s) and places to which the records pertain</li>
                 <li>subject matter to which the records pertain, such as topics, events, people, and
                     organizations</li>
@@ -593,11 +811,11 @@
 
         <section class="slide">
             <h2>3.2 System of Arrangement</h2>
-            <p>Describes current arrangement of materials</p>
-            <p>Describes relationships between groupings of materials</p>
-            <p>Describes ordering system for component files or items (if any)</p>
-            <p class="new">Don’t record information about other actions taken that affected
-                arrangement here; put it in a processing note.</p>
+            <h3 class="slide">Describes current arrangement of materials</h3>
+            <h3 class="slide">Describes relationships between groupings of materials</h3>
+            <h3 class="slide">Describes ordering system for component files or items (if any)</h3>
+            <h3 class="slide new">Don’t record information about other actions taken that affected
+                arrangement here; put it in a processing note.</h3>
         </section>
 
         <section class="slide">
@@ -606,29 +824,27 @@
 
         <section class="slide">
             <h2>4.1 Conditions Governing Access</h2>
-            <p>Restrictions due to the nature of the information in the materials being described,
-                such as those imposed by the donor, by the repository, or by statutory/regulatory
-                requirements. </p>
-            <p>NOT restrictions on use element!</p>
-            <p>Includes:</p>
-            <ul>
+            <h3 class="slide">Restrictions due to the nature of the information in the materials
+                being described, such as those imposed by the donor, by the repository, or by
+                statutory/regulatory requirements, including:</h3>
+            <ul class="slide">
                 <li>Extent of materials restricted</li>
                 <li>Authority for restriction</li>
                 <li>Duration of restriction</li>
                 <li>Authorized users</li>
                 <li>Contact person for further information</li>
             </ul>
-            <p>If no restrictions exist, you should say so!</p>
-            <p>Be clear and brief.</p>
-            <p>Establish a set of standardized statements. </p>
+            <h3 class="slide">If no restrictions exist, you should say so.</h3>
+            <h3 class="slide">Be clear and brief. Establish a set of standardized statements. </h3>
+            <notes>Often confused with Conditions Governing Use element.</notes>
         </section>
 
         <section class="slide">
             <h2>4.2 Physical Access</h2>
-            <p>Restrictions due to any physical characteristics or storage locations that limit,
+            <h3 class="slide">Restrictions due to any physical characteristics or storage locations that limit,
                 restrict, delay, or otherwise affect access to the materials being described,
-                including:</p>
-            <ul>
+                including:</h3>
+            <ul class="slide">
                 <li>location (e.g., offsite, cold storage)</li>
                 <li>physical condition of the material that limits use</li>
                 <li>requirement to use copies instead of originals for preservation reasons (not
@@ -638,116 +854,116 @@
 
         <section class="slide">
             <h2>4.3 Technical Access</h2>
-            <p>Restrictions due to any technical requirements that restrict or otherwise affect
-                access to the materials being described</p>
-            <p>Special projection or playback equipment</p>
-            <p>Specific hardware/software required for use</p>
-            <p>Particularly relevant for electronic records</p>
+            <h3 class="slide">Restrictions due to any technical requirements that restrict or
+                otherwise affect access to the materials being described, such as:</h3>
+            <ul class="slide">
+                <li>Special projection or playback equipment</li>
+                <li>Specific hardware/software required for use</li>
+                <li>Particularly relevant for electronic records</li>
+            </ul>
         </section>
 
         <section class="slide">
             <h2>4.4 Conditions Governing Reproduction and Use</h2>
-            <p>Restrictions on reproduction due to copyright or other reasons</p>
-            <p>Restrictions on further use of the materials being described, such as publication,
-                after access has been provided</p>
-            <p>Again, use /= access</p>
-            <p>Good place for noting copyright restrictions</p>
-            <p> Standardized language very useful here. If no restrictions exist, you should say so!
-            </p>
+            <h3 class="slide">Restrictions on reproduction due to copyright or other reasons</h3>
+            <h3 class="slide">Restrictions on further use of the materials being described, such as
+                publication, <strong>after access has been provided</strong></h3>
+            <h3 class="slide">If no restrictions exist, you should say so.</h3>
+            <notes>Again, use /= access. Standardized language very useful here</notes>
         </section>
 
         <section class="slide">
             <h2>4.5 Languages and Scripts of the Material</h2>
-            <p>Identifies languages or scripts in use</p>
-            <p>If there are none (for example, it’s a collection of photographs), say “no linguistic
-                content”</p>
+            <h3 class="slide">Identifies languages or scripts in use</h3>
+            <h3 class="slide">If there are none (for example, it’s a collection of photographs), say “no linguistic
+                content”</h3>
         </section>
 
         <section class="slide">
             <h2>4.6 Finding Aids</h2>
-            <p>Identifies any other finding aids to the materials being described</p>
-            <p>These don’t necessarily have to be DACS-compliant finding aids; any tools that help
-                researchers understand materials. Indexes, card files, record schedules, etc.</p>
+            <h3 class="slide">Identifies any other finding aids to the materials being
+                described</h3>
+            <h3 class="slide">These don’t necessarily have to be DACS-compliant finding aids; any
+                tools that help researchers understand materials.</h3>
+            <notes>Indexes, card files, record schedules, etc.</notes>
         </section>
 
         <section class="slide">
-            <h1>Acquisition and Appraisal elements (Section 5)</h1>
+            <h1>Acquisition and Appraisal Elements (Section 5)</h1>
         </section>
 
         <section class="slide">
             <h2>5.1 Custodial History</h2>
-            <p>Information on changes of ownership or custody of the material being described, from
+            <h3 class="slide">Information on changes of ownership or custody of the material being described, from
                 the time it left the possession of the creator until it was acquired by the
-                repository</p>
-            <p>Should be recorded if this information is critical to authenticity, integrity, and
-                interpretation of archival unit</p>
+                repository</h3>
+            <h3 class="slide">Should be recorded if this information is critical to authenticity, integrity, and
+                interpretation of archival unit</h3>
         </section>
 
         <section class="slide">
             <h2>5.2 Immediate Source of Acquisition</h2>
-            <p>Source of acquisition and relationship to materials</p>
-            <p>Means of acquisition</p>
-            <p>Date of acquisition</p>
-            <p>Other information if relevant</p>
+            <h3 class="slide">Source of acquisition and relationship to materials</h3>
+            <h3 class="slide">Means of acquisition</h3>
+            <h3 class="slide">Date of acquisition</h3>
+            <h3 class="slide">Other information if relevant</h3>
         </section>
 
         <section class="slide">
             <h2>5.3 Appraisal, Destruction, and Scheduling Information</h2>
-            <p>Rationale for appraisal, destruction actions</p>
-            <p>Relevant disposition schedules</p>
-            <p>What happened, who did it, when it was done</p>
-            <p>Do not record information about gaps in records for reasons other than archival
-                appraisal or destruction</p>
+            <h3 class="slide">Rationale for appraisal, destruction actions</h3>
+            <h3 class="slide">Relevant disposition schedules</h3>
+            <h3 class="slide">Do not record information about gaps in records for reasons other than
+                archival appraisal or destruction</h3>
+            <notes>What happened, who did it, when it was done</notes>
         </section>
 
         <section class="slide">
             <h2>5.4 Accruals</h2>
-            <p>Information about anticipated accruals frequency and volume</p>
+            <h3 class="slide">Information about anticipated accruals frequency and volume</h3>
         </section>
 
         <section class="slide">
-            <h1>Related Materials elements (Section 6)</h1>
+            <h1>Related Materials Elements (Section 6)</h1>
         </section>
 
         <section class="slide">
             <h2>6.1 Existence and Location of Originals</h2>
-            <p>Should only be used if you are describing material that is NOT the original, like
-                microfilm copies or digital surrogates</p>
-            <p>Record where the materials are available and include contact info</p>
+            <h3 class="slide">Should only be used if you are describing material that is NOT the original, like
+                microfilm copies or digital surrogates</h3>
+            <h3 class="slide">Record where the materials are available and include contact info</h3>
         </section>
 
         <section class="slide">
             <h2>6.2 Existence and Location of Copies</h2>
-            <p>Indicates the existence, location, and availability of copies or other reproductions
-                of the materials being described.</p>
-            <p>Excludes copies not publicly available</p>
-            <p>Excludes copies made for preservation reasons, ie if copies MUST be used, record that
-                information in Physical Access element</p>
+            <h3 class="slide">Indicates the existence, location, and availability of copies or other reproductions
+                of the materials being described.</h3>
+            <h3 class="slide">Excludes copies not publicly available</h3>
+            <h3 class="slide">Excludes copies made for preservation reasons, ie if copies MUST be used, record that
+                information in Physical Access element</h3>
         </section>
 
         <section class="slide">
             <h2>6.3 Related Archival Materials</h2>
-            <p>Existence and location of archival materials that are closely related to the
-                materials</p>
-            <p>Relationship can be based on provenance, functions, or subject matter, but it should
-                be direct and significant</p>
-            <p>Don’t make this element do the work of a discovery system; this is not the place for
-                a subject guide.</p>
-            <p>Think about how you are going to keep this information current.</p>
+            <h3 class="slide">Existence and location of archival materials that are closely related to the
+                materials</h3>
+            <h3 class="slide">Relationship can be based on provenance, functions, or subject matter, but it should
+                be <strong>direct and significant</strong></h3>
+            <notes>Don’t make this element do the work of a discovery system; this is not the place for
+                a subject guide. Think about how you are going to keep this information current.</notes>
         </section>
 
         <section class="slide">
             <h2>6.4 Publication Note</h2>
-            <p>Record publications that are about or are based on the use, study, or analysis of the
-                materials being described</p>
-            <p>Not publications you consulted in writing the finding aid!</p>
+            <h3 class="slide">Record publications that are about or are based on the use, study, or analysis of the
+                materials being described</h3>
+            <h3 class="slide">Not publications you consulted in writing the finding aid</h3>
         </section>
 
         <section class="slide">
             <h2>Note elements (Section 7)</h2>
-            <p>Information not accommodated by any of the other elements</p>
-            <p>Should be used thoughtfully - will this information help the end user!</p>
-            <ul>
+            <h3 class="slide">Information not accommodated by any of the other elements</h3>
+            <ul class="slide">
                 <li>Conservation actions, including electronic records (migration,
                     reformatting)</li>
                 <li>Preferred citation</li>
@@ -755,12 +971,13 @@
                 <li>Variant Title</li>
                 <li class="new">Processing Information</li>
             </ul>
+            <notes>Should be used thoughtfully. Will this information help the end user!</notes>
         </section>
 
         <section class="slide">
             <h2>Description Control elements (Section 8)</h2>
-            <p>Documents who created the description and how they created it</p>
-            <ul>
+            <h3 class="slide">Documents who created the description and how they created it</h3>
+            <ul class="slide">
                 <li>Sources used</li>
                 <li>Rules/conventions used</li>
                 <li>Name of person who created it </li>
@@ -824,24 +1041,24 @@
             <h2>Form of the Name (Section 10)</h2>
             <section class="slide">
                 <h3 class="required">10.1 Authorized Form of the Name</h3>
-                <p>Should come from a standardized vocabulary (data value standard)</p>
+                <notes>Should come from a standardized vocabulary (data value standard)</notes>
             </section>
             <section class="slide">
-                <h3 class="required">10.2 Type of Entity (Required)</h3>
-                <p>What kind of entity is this? Doesn’t necessarily have to be human-readable</p>
+                <h3 class="required">10.2 Type of Entity</h3>
+                <notes>What kind of entity is this? Doesn’t necessarily have to be human-readable</notes>
             </section>
             <section class="slide">
                 <h3>10.3 Variant Names</h3>
-                <p>Rules for recording variant names. These are slightly different from library
+                <notes>Rules for recording variant names. These are slightly different from library
                     rules, so if you decide to deviate from DACS here, make sure you document it and
-                    do it consistently</p>
-                <p>Key here is to add names that will help users find materials (“might reasonably
-                    be sought”)</p>
+                    do it consistently</notes>
+                <notes>Key here is to add names that will help users find materials (“might reasonably
+                    be sought”)</notes>
             </section>
             <section class="slide">
                 <h3>10.4 Identifiers for Corporate Bodies</h3>
-                <p>Record an identifier if the entity is a corporate body. This should come from a
-                    data value standard</p>
+                <notes>Record an identifier if the entity is a corporate body. This should come from a
+                    data value standard</notes>
             </section>
         </section>
 
@@ -849,58 +1066,58 @@
             <h2>Description of the Person, Family, or Corporate Body (Section 11)</h2>
             <section class="slide">
                 <h3 class="required">11.1 Dates of Existence</h3>
-                <p>Detailed guidance on how to record various kinds of dates. Referenced throughout the rest of Part II.</p>
+                <notes>Detailed guidance on how to record various kinds of dates. Referenced throughout the rest of Part II.</notes>
             </section>
             <section class="slide">
                 <h3>11.2 Historical Summary</h3>
-                <p>Similar to the biographical/historical element; a narrative note</p>
+                <notes>Similar to the biographical/historical element; a narrative note</notes>
             </section>
             <section class="slide">
                 <h3>11.3 Places</h3>
-                <p>Record place (from data value standard) and dates </p>
+                <notes>Record place (from data value standard) and dates </notes>
             </section>
             <section class="slide">
                 <h3>11.4 Legal Status</h3>
-                <p>For corporate bodies only; use controlled vocabulary and record dates</p>
+                <notes>For corporate bodies only; use controlled vocabulary and record dates</notes>
             </section>
             <section class="slide">
                 <h3>11.5 Functions, Occupations, Activities</h3>
-                <p>Terms should come from a controlled vocabulary if at all possible. Not a
-                    narrative note! </p>
+                <notes>Terms should come from a controlled vocabulary if at all possible. Not a
+                    narrative note! </notes>
             </section>
             <section class="slide">
                 <h3>11.6 Mandates/Source of Authority</h3>
-                <p>A law, act or other legal directive on which the authority of a corporate body
-                    rests. NOT a source you consulted to create the record! </p>
+                <notes>A law, act or other legal directive on which the authority of a corporate body
+                    rests. NOT a source you consulted to create the record! </notes>
             </section>
             <section class="slide">
                 <h3>11.7 Internal Structure/Genealogy</h3>
-                <p>Narrative note documenting internal structure (or genealogy) of the entity being
-                    described, significant changes to this structure, and relationships within this structure </p>
+                <notes>Narrative note documenting internal structure (or genealogy) of the entity being
+                    described, significant changes to this structure, and relationships within this structure </notes>
             </section>
         </section>
 
         <section class="slide">
             <h2>Related Persons, Families, and Corporate Bodies (Section 12)</h2>
-            <p>Many kinds of relationships - family, successor/predecessor, departments, officers,
-                etc. NOT related archival material - that has it’s own elements</p>
+            <notes>Many kinds of relationships - family, successor/predecessor, departments, officers,
+                etc. NOT related archival material - that has it’s own elements</notes>
             <section class="slide">
                 <h3>12.1. Names/Identifiers of Related Corporate Bodies, Persons, or Families</h3>
-                <p>Take the name from a data value standard</p>
+                <notes>Take the name from a data value standard</notes>
             </section>
             <section class="slide">
                 <h3>12.2. Type of Related Entity Record</h3>
-                <p>What kind of entity this related entity is</p>
+                <notes>What kind of entity this related entity is</notes>
             </section>
             <section class="slide">
                 <h3>12.3 Description of the Relationship</h3>
-                <p>Two rules, both of which require you to use a controlled vocabulary</p>
-                <p> Allows you to decide how detailed you want to be about describing this
-                    relationship, but also establishes a baseline for information</p>
+                <notes>Two rules, both of which require you to use a controlled vocabulary. 
+                Allows you to decide how detailed you want to be about describing this
+                    relationship, but also establishes a baseline for information</notes>
             </section>
             <section class="slide">
                 <h3>12.4 Dates of the Relationship</h3>
-                <p>Record the dates of the relationship</p>
+                <notes>Record the dates of the relationship</notes>
             </section>
         </section>
 
@@ -908,66 +1125,66 @@
             <h2>Authority Record Management (Section 13)</h2>
             <section class="slide">
                 <h3>13.1. Repository Code</h3>
-                <p>Should be from a national controlled vocabulary (which is LC in the US)</p>
+                <notes>Should be from a national controlled vocabulary (which is LC in the US)</notes>
             </section>
             <section class="slide">
                 <h3 class="required">13.2 Authority Record Identifier</h3>
-                <p>Gives you the option to have a local system to uniquely identify each record</p>
+                <notes>Gives you the option to have a local system to uniquely identify each record</notes>
             </section>
             <section class="slide">
                 <h3>13.3 Rules or Conventions</h3>
-                <p>Cite rules you used to create the record (will likely include more than just
+                <notes>Cite rules you used to create the record (will likely include more than just
                     DACS). Specify rules for form of name separately. Note directive to establish
-                    local practice.</p>
+                    local practice.</notes>
             </section>
             <section class="slide">
                 <h3>13.4 Status</h3>
-                <p>Allows you to say whether or not the record is current, obsolete, under revision,
-                    etc</p>
+                <notes>Allows you to say whether or not the record is current, obsolete, under revision,
+                    etc</notes>
             </section>
             <section class="slide">
                 <h3>13.5 Level of Detail</h3>
-                <p>DACS defines minimal You’ll need to define what “partial” or “full” mean</p>
+                <notes>DACS defines minimal You’ll need to define what “partial” or “full” mean</notes>
             </section>
             <section class="slide">
                 <h3>13.6 Date(s) of Authority Record Creation and Revision</h3>
-                <p>dates of record (not entity)</p>
+                <notes>dates of record (not entity)</notes>
             </section>
             <section class="slide">
                 <h3>13.7 Languages or Scripts</h3>
-                <p>language of record (not materials)</p>
+                <notes>language of record (not materials)</notes>
             </section>
             <section class="slide">
                 <h3>13.8 Sources</h3>
-                <p>Sources consulted in preparing the record. Establish local practice regarding
-                    form of citation.</p>
+                <notes>Sources consulted in preparing the record. Establish local practice regarding
+                    form of citation.</notes>
             </section>
             <section class="slide">
                 <h3>13.9 Maintenance Information</h3>
-                <p>name of person who created or revised the record other information about its
-                    creation or maintenance</p>
+                <notes>name of person who created or revised the record other information about its
+                    creation or maintenance</notes>
             </section>
         </section>
 
         <section class="slide">
-            <h3>Related Archival Materials and Other Resources (Section 14)</h3>
-            <p>Does not specify mechanics of relationships, just information that should be
-                recorded. How you link things (or not) is up to you.</p>
+            <h2>Related Archival Materials and Other Resources (Section 14)</h2>
+            <notes>Does not specify mechanics of relationships, just information that should be
+                recorded. How you link things (or not) is up to you.</notes>
             <section class="slide">
                 <h3>14.1 Identifiers and Titles of Related Resources</h3>
-                <p>Information needed to uniquely identify an information resource</p>
+                <notes>Information needed to uniquely identify an information resource</notes>
             </section>
             <section class="slide">
                 <h3>14.2 Types of Related Resources</h3>
-                <p>Record the type of resource. Again, use a controlled vocabulary.</p>
+                <notes>Record the type of resource. Again, use a controlled vocabulary.</notes>
             </section>
             <section class="slide">
                 <h3>14.3 Nature of Relationship to Related Resources</h3>
-                <p>Record nature of relationship: creator, author, custodian, owner, etc.</p>
+                <notes>Record nature of relationship: creator, author, custodian, owner, etc.</notes>
             </section>
             <section class="slide">
                 <h3>14.4 Dates of Related Resources and/or Relationships</h3>
-                <p>Dates of resource Dates related to relationship Describe what those dates are</p>
+                <notes>Dates of resource Dates related to relationship Describe what those dates are</notes>
             </section>
         </section>
 
