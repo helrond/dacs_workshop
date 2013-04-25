@@ -1,0 +1,108 @@
+  * {
+    background: transparent !important;
+    color: black !important;
+    text-shadow: none !important;
+    filter: none !important;
+    -ms-filter: none !important;
+    -webkit-box-reflect: none !important;
+    -moz-box-reflect: none !important;
+    -webkit-box-shadow: none !important;
+    -moz-box-shadow: none !important;
+    box-shadow: none !important;
+  }
+  * :before, * :after {
+    display: none !important;
+  }
+
+  a, a:visited {
+    color: #444 !important;
+    text-decoration: underline;
+  }
+
+  a[href]:after {
+    content: " (" attr(href) ")";
+  }
+
+  abbr[title]:after {
+    content: " (" attr(title) ")";
+  }
+  
+  h1 {font-size: 2em;}
+  h2 {font-size: 1.5em;}
+  h3 {font-size: 1em;}
+
+  .ir a:after, a[href^="javascript:"]:after, a[href^="#"]:after {
+    content: "";
+  }
+ul, li {font-size: .8em;}
+p {font-size: .8em;}
+
+notes {
+display: none;
+/*font-size: .8em;
+font-style: italic;*/
+}
+
+  pre, blockquote {
+    border: 1px solid #999;
+    page-break-inside: avoid;
+  }
+  
+  thead {
+    display: table-header-group;
+  }
+
+  tr, img {
+    page-break-inside: avoid;
+  }
+
+  @page {
+    margin: 0.5cm;
+}
+
+  p, h2, h3 {
+    orphans: 3;
+    widows: 3;
+  }
+
+  h2, h3 {
+    page-break-after: avoid;
+  }
+
+  .slide {
+    position: static !important;
+    visibility: visible !important;
+    display: block !important;
+    -webkit-transform: none !important;
+    -moz-transform: none !important;
+    -o-transform: none !important;
+    -ms-transform: none !important;
+    transform: none !important;
+    opacity: 1 !important;
+  }
+
+  h1, .vcenter {
+    -webkit-transform: none !important;
+    -moz-transform: none !important;
+    -o-transform: none !important;
+    -ms-transform: none !important;
+    transform: none !important;
+    padding: 0 !important;
+    position: static !important;
+  }
+
+.deck-container > .slide {
+    page-break-inside: avoid;
+    border-bottom: solid 2px gray;
+  }
+
+  .deck-container {
+    width: 100% !important;
+    height: auto !important;
+    padding: 0 !important;
+    display: block !important;
+  }
+
+  script {
+    display: none;
+  }

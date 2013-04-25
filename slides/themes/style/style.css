@@ -1,1 +1,10 @@
 notes {display: none;}
+
+h3.new {
+  text-shadow: 0 0 15px yellow, 0 0 2px #000;
+}
+
+.required:before {
+    content: "✔";
+    color: green;
+}
