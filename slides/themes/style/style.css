@@ -1,4 +1,4 @@
-notes {display: none;}
+.notes {display: none;}
 
 h3.new {
   text-shadow: 0 0 15px yellow, 0 0 2px #000;
@@ -8,3 +8,14 @@ h3.new {
     content: "✔";
     color: green;
 }
+
+#structure, #content, #value
+{float:left; width:31%; margin:5px;padding:5px 5px 30px 5px;border:1px dashed #aaaaaa;}
+
+#origin {float: left; width: 98%; border: 1px dashed #aaaaaa; margin-top:20px;}
+
+#origin li {display:inline-block; width:31%; margin:5px; }
+
+li.drag {list-style-type:none; height: 30px; background: -webkit-linear-gradient(top, #f4fafe 0%, #ccf0f0 100%); padding-left:5px; font-size:.65em;}
+
+h5.drag {display:inline-block; width:33%;}

@@ -37,11 +37,8 @@
 ul, li {font-size: .8em;}
 p {font-size: .8em;}
 
-notes {
-display: none;
-/*font-size: .8em;
-font-style: italic;*/
-}
+p.notes {/*font-style:italic;*/
+        display: none;}
 
   pre, blockquote {
     border: 1px solid #999;
@@ -57,7 +54,7 @@ font-style: italic;*/
   }
 
   @page {
-    margin: 0.5cm;
+    margin: 1in;
 }
 
   p, h2, h3 {
@@ -92,7 +89,7 @@ font-style: italic;*/
   }
 
 .deck-container > .slide {
-    page-break-inside: avoid;
+    page-break-inside: auto;
     border-bottom: solid 2px gray;
   }
 
