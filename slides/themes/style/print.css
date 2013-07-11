@@ -37,8 +37,8 @@
 ul, li {font-size: .8em;}
 p {font-size: .8em;}
 
-p.notes {font-style:italic;
-        /*display: none;*/}
+p.notes {/*font-style:italic;*/
+        display: none;}
 
   pre, blockquote {
     border: 1px solid #999;
@@ -89,9 +89,10 @@ p.notes {font-style:italic;
   }
 
 .deck-container > .slide {
-    page-break-inside: auto;
-    border-bottom: solid 2px gray;
+    page-break-inside: auto;  
   }
+  
+  .slide {border-bottom: 2px solid gray;}
 
   .deck-container {
     width: 100% !important;
